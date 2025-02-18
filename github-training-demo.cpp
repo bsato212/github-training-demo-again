@@ -4,7 +4,7 @@
 
 using namespace std;
 
-uint64_t defaultArgument = 5000;
+uint64_t defaultArgument = 1234;
 
 uint64_t calculatePiDigit(uint64_t position) {
     vector<uint64_t> pi((position + 1) * 10 / 3);
